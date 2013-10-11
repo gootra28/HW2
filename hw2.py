@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Name: Travis Goodroad
+# Evergreen Login: Gootra28
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 2
@@ -17,8 +17,19 @@
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 1 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+n = 100
 
+total = 0
+
+i = 1
+
+while i <= n :
+
+	total = total + i
+
+	i = i + 1
+
+print total
 
 ###
 ### Problem 2
@@ -27,7 +38,12 @@ print "Problem 1 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+
+T = range( 2, 11 )
+
+for i in T:
+
+	print 1.0/i
 
 
 ###
@@ -37,7 +53,12 @@ print "Problem 2 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+n = 10
+triangular = 0
+for i in range (1, n + 1):
+    triangular = triangular +i
+print triangular
+print n*(n+1)/2
 
 ###
 ### Problem 4
@@ -46,7 +67,17 @@ print "Problem 3 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+
+n = 10
+
+total = 1
+
+for i in range ( 1 , n + 1 ) :
+
+	total = total * i
+
+print total
+
 
 ###
 ### Problem 5
@@ -57,26 +88,53 @@ print "Problem 5 solution follows:"
 
 # ... write your code and comments here (and remove this line)
 
-###
-### Problem 6
-###
+n = 10
+
+while n > 0:
+
+	total = 1
+
+	for i in range ( 1 , n + 1 ) :
+
+		total = total * i
+
+	print total
+	n = n - 1
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+n = 1
 
-###
+total2 = 1.0
+
+while n <= 10:
+
+	total = 1
+
+	for i in range ( 1 , n + 1 ) :
+
+		total = total * i
+
+	total2 = total2 + ( 1.0 / total)
+	n = n + 1
+
+
+print total2
+
 ### Collaboration
-###
+### Ross Carrigan 
+### Ian Hooper
 
 # ... List your collaborators and other sources of help here (websites, books, etc.),
 # ... as a comment (on a line starting with "#").
+# 
 
 ###
 ### Reflection
 ###
 
-# ... Write how long this assignment took you, including doing all the readings
+# about 4 hours
 # ... and tutorials linked to from the homework page. Did the readings, tutorials,
-# ... and lecture contain everything you needed to complete this assignment?
+# yes the lecture on loops really helped =]
+
